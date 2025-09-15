@@ -97,52 +97,76 @@ def sum_list(lst: List[int]) -> int:
 
 
 def mean(lst: List[int]) -> float:
-    """Takes a list of numbers, and returns the mean of the numbers.
-
+    """
+    Takes a list of numbers, and returns the mean of the numbers.
     Args:
         lst - a list of numbers
-
     Returns:
         the mean of the passed in list
     """
-    raise NotImplementedError("mean")
+
+    return sum_list(lst) / len(lst) if lst else 0
+
+    # raise NotImplementedError("mean")
 
 
 def median(lst: List[int]) -> float:
-    """Takes an ordered list of numbers, and returns the median of the numbers.
-
+    """
+    Takes an ordered list of numbers, and returns the median of the numbers.
     If the list has an even number of values, it computes the mean of the two center
     values.
-
     Args:
         lst - an ordered list of numbers
-
     Returns:
         the median of the passed in list
     """
-    raise NotImplementedError("median")
+
+    if len(lst) % 2 == 1:
+        return lst[len(lst) // 2 ]
+    else:
+        m1 = len(lst) // 2
+        m2 = m1 - 1
+        return (lst[m1] + lst[m2]) / 2
+    
+    # raise NotImplementedError("median")
 
 
 def duck_duck_goose(lst: List[str]) -> List[str]:
-    """Given an list of names (strings), play 'duck duck goose' with it, knocking out
+    """
+    Given an list of names (strings), play 'duck duck goose' with it, knocking out
     every third name (wrapping around) until only two names are left.
-
     In other words, when you hit the end of the list, wrap around and keep counting from
     where you were.
-
     For example, if given this list ["roscoe", "kim", "woz", "solin"], you'd first
     knock out woz. Then first 'duck' on solin, wrap around to 'duck' on roscoe and
     'goose' on kim - knocking him out and leaving only roscoe and solin.
-
     You may assume the list has 3+ names to start
-
     Args:
         lst - a list of names (strings)
-
     Returns:
         the resulting list after playing duck duck goose
     """
-    raise NotImplementedError("duck_duck_goose")
+
+    position = 0
+    current = "duck1"
+    while len(lst) > 2:
+        if current == "duck1":
+            current = "duck2"
+            position += 1
+        elif current == "duck2":
+            current = "goose"
+            position += 1
+        else: # current is goose
+            current = "duck1"
+            lst.pop(position)
+
+        # Wrap around
+        if position == len(lst):
+            position = 0
+            
+    return lst
+
+    # raise NotImplementedError("duck_duck_goose")
 
 
 # this line causes the nested code to be skipped if the file is imported instead of run
