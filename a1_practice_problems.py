@@ -1,4 +1,5 @@
-"""Assignment 1
+"""
+Assignment 1
 
 Fill in the following function skeletons - descriptions are provided in 
 the docstring (the triple quote thing at the top of each function)
@@ -156,11 +157,11 @@ def duck_duck_goose(lst: List[str]) -> List[str]:
         elif current == "duck2":
             current = "goose"
             position += 1
-        else: # current is goose
+        else: # current = goose
             current = "duck1"
             lst.pop(position)
 
-        # Wrap around
+        # go back to start
         if position == len(lst):
             position = 0
             
