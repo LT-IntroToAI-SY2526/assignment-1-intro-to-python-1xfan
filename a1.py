@@ -35,11 +35,34 @@ I have some experience with Java. Can you create 5-7 practice problems that cove
 
 """
 PROBLEM 1: Even or Odd
-    Write a function that takes an integer and returns "even" if it’s even or "odd" if it’s odd.
+    Write a function that takes an integer and returns "even" if it's even or "odd" if it's odd.
     Example:
         even_or_odd(4) ➞ "even"
         even_or_odd(7) ➞ "odd"
+
+PROBLEM 2: Reverse a String
+    Write a function that returns the reverse of the input string.
+    Example:
+        reverse_string("hello") ➞ "olleh"
+        reverse_string("Python") ➞ "nohtyP"
+
+PROBLEM 3: Count Vowels
+    Write a function that counts how many vowels (a, e, i, o, u) are in a string. It should be case-insensitive.
+    Example:
+        count_vowels("Hello") ➞ 2
+        count_vowels("PYTHON") ➞ 1
     
+PROBLEM 4: Double the Numbers
+    Write a function that takes a list of integers and returns a new list where each number is doubled.
+    Example:
+        double_numbers([1, 2, 3]) ➞ [2, 4, 6]
+        double_numbers([0, -1, 5]) ➞ [0, -2, 10]
+
+PROBLEM 5: Find the Maximum
+    Write a function that returns the largest number in a list.
+    Example:
+        find_max([10, 5, 20, 8]) ➞ 20
+        find_max([-1, -7, -3]) ➞ -1
 
 Example:
 Problem: Write a function called 'is_even' that takes an integer and returns 
@@ -49,16 +72,6 @@ Example inputs/outputs:
 - is_even(4) should return True
 - is_even(7) should return False
 """
-
-
-
-
-
-
-
-
-
-
 
 # =============================================================================
 # PART 3: TESTING YOUR SOLUTIONS
