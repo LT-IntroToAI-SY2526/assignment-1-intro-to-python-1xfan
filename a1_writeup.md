@@ -18,8 +18,16 @@ After completing your problems, reflect on:
 
 1. **What was your initial experience with Python?** How did it compare to other programming languages you've used?
 
+I actually have worked with a bit of Python before! I learned a bit at CS Scholars at CMU. I'm still not too familiar with it so I think this was a nice refresher. Compared to Java, it's a lot more lenient and I feel like there's more functions for convenience, compared to Java, which feels like it just has the bare necessities.
+
 2. **How did you use AI effectively?** Give specific examples of good prompts you used and what you learned from the responses.
+
+I asked "What does XYZ do" a lot for code that I didn't understand and AI elaborated and explained it to me in a simple way.
 
 3. **What concepts were most challenging?** How did AI help you understand them?
 
+
+
 4. **What did you learn about collaborating with AI?** What strategies worked best for learning rather than just getting answers?
+
+I learned how I can use AI as a learning tool, asking for practice questions to help give me direction in terms of what I should learn. This makes sure I actually understand the material, rather than just having AI do work for me and not learning anything myself.
