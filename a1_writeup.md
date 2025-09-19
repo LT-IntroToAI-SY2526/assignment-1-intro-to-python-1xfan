@@ -22,12 +22,12 @@ I actually have worked with a bit of Python before! I learned a bit at CS Schola
 
 2. **How did you use AI effectively?** Give specific examples of good prompts you used and what you learned from the responses.
 
-I asked "What does XYZ do" a lot for code that I didn't understand and AI elaborated and explained it to me in a simple way.
+I asked "What does XYZ do" a lot for code that I didn't understand and AI elaborated and explained it to me in a simple way. For example, I asked: "What does the snippet (that you gave) 's[::-1]' do?" and I learned that it reverses a string named "s".
 
 3. **What concepts were most challenging?** How did AI help you understand them?
 
-
+I think the most challenging part was understanding the syntax that doesn't have a Java equivalent, like "return s[::-1]" from AI generated problem 2. AI helped me understand what I was looking at when I asked it to explain it.
 
 4. **What did you learn about collaborating with AI?** What strategies worked best for learning rather than just getting answers?
 
-I learned how I can use AI as a learning tool, asking for practice questions to help give me direction in terms of what I should learn. This makes sure I actually understand the material, rather than just having AI do work for me and not learning anything myself.
+I learned how I can use AI as a learning tool, asking for practice questions to help give me direction in terms of what I should learn. This makes sure I actually understand the material, rather than just having AI do work for me and not learning anything myself. A strategy I used was asking ChatGPT to elaborate on things I didn't understand.
